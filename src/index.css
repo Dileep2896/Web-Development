@@ -1,13 +1,94 @@
 body {
-  margin: 0;
+  margin: auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #293B5F;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.bank__list {
+  width: 500px;
+  height: 600px;
+  background-color: #47597E;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 550px) {
+  .bank__list {
+    width: 450px;
+    height: 600px;
+  }
+}
+
+.list__group {
+  background-color: #DBE6FD;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+}
+
+.list__group {
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #293B5F;
+}
+
+.list__group button {
+  font-size: 8px;
+  margin-right: 10px;
+  margin-top: 5px;
+  outline: none;
+  border: none;
+}
+
+.list__group button:nth-of-type(2) {
+  background-color: red;
+  border: none;
+}
+
+.list__group span {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.list__group h5 {
+  font-size: 15px;
+}
+
+.form__main input {
+  width: 80%;
+  margin-bottom: 20px;
+  border: 0px;
+  padding: 10px;
+  border-radius: 10px;
+  outline: 0px;
+}
+
+.form__main Button {
+  width: 80%;
+  background-color: #DBE6FD;
+  color: #222222;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+}
+
+.form__main Button:hover {
+  background-color: #39A2DB;
+}
+
+.form___buttons {
+  margin-top: 10px;
+}
+
+.form___buttons Button {
+  margin-right: 8px;
 }
